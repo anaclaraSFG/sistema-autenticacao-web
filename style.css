@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white
+}
+
+
+.containerPai{
+    width: 100% ;
+    height: 100vh;
+    background-color: #14151a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 80%;
+    height: 90vh;
+    background-color: rgba(255 255 255/ .10);
+    border-radius: 32px;
+    padding: 32px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.esquerda, .direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formLogin, .facaLogin, .formLogin, .formCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input, button{
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+h2{
+    margin-bottom: 32px;
+    
+}
+
